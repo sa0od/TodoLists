@@ -1,0 +1,58 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>To Do List</title>
+</head>
+<body dir="ltr">
+    <div class="todolist">
+        <div id ="tasks" class="tasks">
+            <h2>ToDoList </h2>
+            <div class="input">
+                <!-- <textarea name="" id="input"></textarea> -->
+                <input type="text" id = "input" placeholder="Create Some Tasks ... ">
+                <span class="material-symbols-outlined" id="addIcon">
+                    add_circle
+                </span>
+            </div>
+            <div class="filters">
+                <div class="fliterBtn">
+                    <button id="allTask" class=" "> ALL</button>
+                    <button id="completed" class="">Completed</button>
+                    <button id="incomplete" class="">Incomplete</button>
+                </div>
+                <h3 id="count"></h3>
+            </div>
+           <div id="tasksContent">
+                <!-- <div class="task">
+                    <div class="info">
+                            <p id="title" >Get More Lists</p>
+                            <h3>13/10/2020</h3>
+                    </div>
+                    <div class="tools">
+                    
+                        <span id="done" class="material-symbols-outlined done" >
+                            done
+                        </span>
+                        <span id="edit" class="material-symbols-outlined edit ">
+                            edit_note
+                        </span>
+                        <span id="delete" class="material-symbols-outlined delete">
+                            close
+                        </span>
+                        <span class="material-symbols-outlined">
+                            favorite
+                        </span>
+                    </div>
+                </div> -->
+                
+            </div>
+        </div>
+    </div>
+    <!-- <script src="./js.js"></script> -->
+    <script src="js.js"></script>
+</body>
+</html>
